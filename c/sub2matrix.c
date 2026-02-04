@@ -20,7 +20,7 @@ int main(){
     printf("Enetr the Sum of matrix=\n");
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
-        sum[i][j]=m[i][j]+m1[i][j];
+        sum[i][j]=m[i][j]*m1[i][j];
         }
     }
     printf("Result of matrix=\n");

@@ -10,7 +10,7 @@ int area(int r);
     area(l,b);
     area(r);
    }
-int area(int l, int b){
+int area(int l, int b){ 
     cout<<"area="<<l*b<<endl;
 }
 int area(int r){

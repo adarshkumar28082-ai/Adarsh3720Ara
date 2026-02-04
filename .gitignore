@@ -1,0 +1,18 @@
+﻿# Java
+*.class
+*.jar
+target/
+bin/
+
+# Executables
+*.exe
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

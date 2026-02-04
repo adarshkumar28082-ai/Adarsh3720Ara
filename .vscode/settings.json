@@ -61,5 +61,6 @@
     "ostream": "cpp",
     "SLL1.C": "cpp"
   },
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "java.debug.settings.onBuildFailureProceed": true
 }

@@ -2,6 +2,125 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Name",
+      "request": "launch",
+      "mainClass": "JAVA.Constructor.Default.Name",
+      "projectName": "program_dc34807a"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "JAVA.Inheratince.hierarchical.main",
+      "projectName": "program_dc34807a"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "JAVA.Inheratince.Single.Main",
+      "projectName": "program_dc34807a"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "JAVA.Inheratince.Single.main",
+      "projectName": "program_dc34807a"
+    },
+    {
+      "type": "java",
+      "name": "mul",
+      "request": "launch",
+      "mainClass": "mul",
+      "projectName": "program_dc34807a"
+    },
+    {
+      "type": "java",
+      "name": "Ada",
+      "request": "launch",
+      "mainClass": "Ada",
+      "projectName": "program_dc34807a"
+    },
+    {
+      "type": "java",
+      "name": "rect",
+      "request": "launch",
+      "mainClass": "rect",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "calcu1",
+      "request": "launch",
+      "mainClass": "calcu1",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "calcu",
+      "request": "launch",
+      "mainClass": "calcu",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "leapa",
+      "request": "launch",
+      "mainClass": "leapa",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "week1",
+      "request": "launch",
+      "mainClass": "JS.week1",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "week",
+      "request": "launch",
+      "mainClass": "week",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "Season",
+      "request": "launch",
+      "mainClass": "Season",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "fact",
+      "request": "launch",
+      "mainClass": "fact",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "Divi",
+      "request": "launch",
+      "mainClass": "Divi",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigits",
+      "request": "launch",
+      "mainClass": "SumOfDigits",
+      "projectName": "program_76970b5d"
+    },
+    {
+      "type": "java",
+      "name": "Ada",
+      "request": "launch",
+      "mainClass": "Ada",
+      "projectName": "program_76970b5d"
+    },
+    {
       "name": "(gdb) Attach",
       "type": "cppdbg",
       "request": "attach",
@@ -9,19 +128,18 @@
       "MIMode": "gdb",
       "miDebuggerPath": "/path/to/gdb",
       "setupCommands": [
-          {
-              "description": "Enable pretty-printing for gdb",
-              "text": "-enable-pretty-printing",
-              "ignoreFailures": true
-          },
-          {
-              "description": "Set Disassembly Flavor to Intel",
-              "text": "-gdb-set disassembly-flavor intel",
-              "ignoreFailures": true
-          }
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
       ]
     },
-  
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
